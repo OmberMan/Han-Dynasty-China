@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 9,
+		"replaces": "Composite Bowman",
+		"cost": 90,
+		"requiredTech": "Construction",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"
+	},
+{
+		"name": "Dao Swordsman",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+                "uniques": ["[+20]% Strength decreasing with distance from the capital"],
+                "promotions": ["Dao Swordsman ability", "Quick Study"],
+		"attackSound": "metalhit"
+	},
+]
