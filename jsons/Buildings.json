@@ -1,0 +1,15 @@
+[
+{
+		"name": "Examination Hall",
+		"replaces": "Amphitheater",
+		"culture": 3,
+                "uniqueTo": "China",
+		"maintenance": 3,
+                "specialistSlots": {"Artist": 1, "Scientist": 1},
+		"hurryCostModifier": 25,
+		"happiness": 1,
+                "uniques": ["Destroyed when the city is captured", "[+10]% Great Person generation [in capital]", "[+1 Food] from [Farm] tiles without [non-fresh water] [in this city]"],
+		"requiredBuilding": "Monument",
+		"requiredTech": "Drama and Poetry"
+	},
+]
