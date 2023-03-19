@@ -112,4 +112,35 @@
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
+},
+{
+		"name": "Golden Horde",
+		"unitType": "Mounted",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Mongolia",
+		"movement": 4,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Horse Riding",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No movement cost to pillage", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+1] Sight"],
+		"promotions": ["Formation I", "Blitz"],
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Impi", 
+		"replaces": "Spearman",
+		"uniqueTo": "Zulu",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"uniques": ["[+50]% Strength <vs [Gunpowder] units>","[+33]% Strength "[+33]% Strength <when attacking>", "[+33]% Strength <when below [50] HP>"],
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
+	},
 ]
