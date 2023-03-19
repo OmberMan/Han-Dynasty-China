@@ -107,8 +107,8 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-                "uniques": ["May create improvements on water resources <for [2] movement>"],
-		"promotions": ["Shock I", "Great Generals II"],
+                "uniques": ["May create improvements on water resources <for [2] movement>", "[+33]% Strength <vs [Sword] units>", "[+33]% Strength <vs [Gunpowder] units>"],
+		"promotions": ["Great Generals II"],
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
