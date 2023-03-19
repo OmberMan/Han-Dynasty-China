@@ -33,4 +33,44 @@
 		"maintenance": 1,
 		"requiredTech": "Philosophy"
 	},
+{
+		"name": "Dzong",
+		"replaces": "Castle",
+		"uniqueTo": "Tibet",
+                "cost": 160,
+		"cityStrength": 10,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Temple",
+		"requiredTech": "Engineering",
+		"uniques": ["Must be on [Hill]",
+"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion",
+"[+1 Poduction] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
+"[+2 Production] from [Holy site] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
+"Destroyed when the city is captured",
+"Unlocked at Engineering"]
+	},
+{
+		"name": "Qadi Court",
+		"replaces": "Courthouse",
+		"uniqueTo": "Songhai",
+		"maintenance": 0,
+		"faith": 3,
+		"cost": 100,
+		"hurryCostModifier": -15,
+		"uniques": ["Cheaper to buy","Remove extra unhappiness from annexed cities", "Can only be built [in annexed cities]"],
+		"requiredTech": "Philosophy"
+	},
+{
+		"name": "Imperial Epic",
+		"replaces": "Heroic Epic",
+		"uniqueTo": "Songhai",
+		"cost": 125,
+		"culture": 1,
+                "greatPersonPoints": {"Great Artist": 1},
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			 "All newly-trained [non-air] units [in this city] receive the [River Warlord] promotion", "All newly-trained [Mounted] units [in this city] receive the [Shock I] promotion", "Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
 ]
