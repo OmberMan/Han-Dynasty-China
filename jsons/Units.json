@@ -112,7 +112,6 @@
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
 	},
-},
 {
 		"name": "Golden Horde",
 		"unitType": "Mounted",
@@ -142,5 +141,37 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
+	},
+{
+		"name": "Gungdo Archer",
+		"unitType": "Archery",
+		"replaces": "Composite Bowman",
+		"uniqueTo": "Korea",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"upgradesTo": "Gatling Gun",
+		"promotions": ["Gungdo Archer ability"],
+		"obsoleteTech": "Industrialization",
+		"attackSound": "arrow"
+	},
+{
+		"name": "Induna",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Zulu",
+		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable", "Ignores terrain cost", "Ignores Zone of Control"],
+		"movement": 3
+	},
+{
+		"name": "Daimyo",
+		"unitType": "Civilian",
+		"uniqueTo": "Japan",
+		"replaces": "Great General",
+		"uniques": ["[+15]% Strength bonus for [Military] units within [1] tiles", "All adjacent units heal [+10] HP when healing", "[+1] Sight", "Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
 	},
 ]
