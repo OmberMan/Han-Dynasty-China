@@ -152,7 +152,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+50]% Strength <vs [Gunpowder] units>", "[+33]% Strength <when attacking>", "[+33]% Strength <when below [50] HP>"],
+		"uniques": ["[+50]% Strength <vs [Gunpowder] units>", "[+33]% Strength <when attacking>", "[+33]% Strength <when below [50] HP>", "[+33]% Strength <vs [Mounted] units>"],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -201,7 +201,7 @@
 		"requiredTech": "Sailing",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-            "promotions": ["Pirate ability"],
+                "promotions": ["Pirate ability"],
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
 		"attackSound": "throw"
 	},
