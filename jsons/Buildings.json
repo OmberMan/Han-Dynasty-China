@@ -1,4 +1,17 @@
 [
+	{
+		"name": "Vihara",
+		"replaces": "Temple",
+		"uniqueTo": "Champa", 
+		"maintenance": 2,
+		"faith": 1,
+		"culture": 1,
+                "food": 1,
+		"hurryCostModifier": 25,
+       		"cost": 75,
+		"uniques": ["[+1 Faith] from [Jungle] tiles in this city"],
+		"requiredTech": "Philosophy"
+	},
 {
 		"name": "Examination Hall",
 		"replaces": "Amphitheater",
