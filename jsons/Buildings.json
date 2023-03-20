@@ -34,23 +34,6 @@
 		"requiredTech": "Philosophy"
 	},
 {
-		"name": "Dzong",
-		"replaces": "Castle",
-		"uniqueTo": "Tibet",
-                "cost": 160,
-		"cityStrength": 10,
-		"cityHealth": 50,
-		"hurryCostModifier": 25,
-		"requiredBuilding": "Temple",
-		"requiredTech": "Engineering",
-		"uniques": ["Must be on [Hill]",
-"All newly-trained [{Military} {Land}] units [in this city] receive the [Warrior Monk] promotion",
-"[+1 Poduction] from [Holy site] tiles [in this city] <with [1] to [2] neighboring [Mountain] tiles>",
-"[+2 Production] from [Holy site] tiles [in this city] <with [3] to [6] neighboring [Mountain] tiles>",
-"Destroyed when the city is captured",
-"Unlocked at Engineering"]
-	},
-{
 		"name": "Qadi Court",
 		"replaces": "Courthouse",
 		"uniqueTo": "Songhai",
