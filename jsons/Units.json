@@ -96,6 +96,21 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Turtle Ship",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
+		"uniqueTo": "Korea",
+		"movement": 3,
+		"strength": 18,
+		"cost": 60,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Samurai",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
@@ -159,8 +174,9 @@
 	},
 {
 		"name": "Induna",
-		"unitType": "Civilian",
+		"unitType": "Sword",
 		"replaces": "Great General",
+                "strength": 15,
 		"uniqueTo": "Zulu",
 		"uniques": ["Can start an [8]-turn golden age", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable", "Ignores terrain cost", "Ignores Zone of Control"],
@@ -173,5 +189,35 @@
 		"replaces": "Great General",
 		"uniques": ["[+15]% Strength bonus for [Military] units within [1] tiles", "All adjacent units heal [+10] HP when healing", "[+1] Sight", "Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+{
+		"name": "Pirate",
+		"unitType": "Melee Water",
+		"uniqueTo": "Champa",
+		"replaces": "Trireme",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+            "promotions": ["Pirate ability"],
+		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Coastal Raider",
+		"unitType": "Sword",
+		"uniqueTo": "Champa",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","Double movement in [Coast]"],
+		"promotions": ["Amphibious"],
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
 	},
 ]
