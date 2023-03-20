@@ -120,7 +120,7 @@
 		"movement": 4,
 		"strength": 11,
 		"cost": 75,
-		"requiredTech": "Horse Riding",
+		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No movement cost to pillage", "No defensive terrain bonus", "[-25]% Strength <vs cities> <when attacking>", "[+1] Sight"],
 		"promotions": ["Formation I", "Blitz"],
