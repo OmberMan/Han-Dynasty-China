@@ -40,7 +40,7 @@
                 "uniqueTo": "China",
 		"maintenance": 3,
 		"percentStatBonus": {"science": 33},
-                "specialistSlots": {"Scholar-Bureacrat": 3},
+                "specialistSlots": {"Scholar-Bureaucrat": 3},
 		"hurryCostModifier": 40,
 		"happiness": 1,
                 "uniques": ["[+20 Faith] whenever a Great Person is expended", "[+10]% Great Person generation [in capital]", "[+1 Food] from [Farm] tiles without [non-fresh water] [in this city]"],
