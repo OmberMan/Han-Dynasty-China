@@ -87,8 +87,8 @@
 		"uniqueTo": "Korea",
 		"movement": 2,
 		"strength": 6,
-		"rangedStrength": 15,
-		"cost": 75,
+		"rangedStrength": 19,
+		"cost": 100,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
@@ -122,7 +122,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-                "uniques": ["May create improvements on water resources <for [2] movement>", "[+33]% Strength <vs [Sword] units>", "[+33]% Strength <vs [Gunpowder] units>"],
+                "uniques": ["May create improvements on water resources <for [1] movement>", "[+33]% Strength <vs [Sword] units>", "[+33]% Strength <vs [Gunpowder] units>", "[+33]% Strength when stacked with [Daimyo]"],
 		"promotions": ["Great Generals II", "Shock I"],
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
@@ -130,7 +130,7 @@
 {
 		"name": "Golden Horde",
 		"unitType": "Mounted",
-		"replaces": "Lancer",
+		"replaces": "Swordsman",
 		"uniqueTo": "Mongolia",
 		"movement": 4,
 		"strength": 11,
@@ -188,7 +188,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Japan",
 		"replaces": "Great General",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [1] tiles", "All adjacent units heal [+10] HP when healing", "[+1] Sight", "Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"uniques": ["[+10]% Strength bonus for [Wounded] units within [2] tiles", "All adjacent units heal [+5] HP when healing", "[+1] Sight", "Can start an [8]-turn golden age","[+15]% Strength bonus for [Military] units within [2] tiles", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
 {
