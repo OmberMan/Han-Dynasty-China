@@ -220,6 +220,22 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "elephant"
 	},
+{
+		"name": "Cam Quan",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Viet Nam",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"promotions": ["Woods Warfare"],
+		"uniques": ["Upgrades to Rifleman"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Coastal Raider",
 		"unitType": "Sword",
