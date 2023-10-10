@@ -206,6 +206,20 @@
 		"uniques": ["Cannot enter ocean tiles","Can move after attacking"],
 		"attackSound": "throw"
 	},
+{
+		"name": "Naresuan's Elephant",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Siam",
+		"movement": 3,
+		"strength": 15,
+		"cost": 115,
+		"requiredTech": "Horseback Riding",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "elephant"
+	},
 	{
 		"name": "Coastal Raider",
 		"unitType": "Sword",
