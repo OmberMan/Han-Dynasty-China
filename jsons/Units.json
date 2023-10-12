@@ -26,7 +26,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-                "uniques": ["[+15]% Strength decreasing with distance from the capital"],
+                "uniques": ["[+20]% Strength decreasing with distance from the capital"],
                 "promotions": ["Dao Swordsman ability"],
 		"attackSound": "metalhit"
 	},
@@ -59,6 +59,22 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "horse"
+	},
+{
+		"name": "Bannerman Rider",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Manchuria",
+		"movement": 4,
+		"strength": 12,
+		"cost": 40,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "[+33]% Strength <vs [Gunpowder] units>", "[+10]% Strength <when adjacent to a [Bannerman Rider] unit>", "[+200]% maintenance costs"],
+  "promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
 	{
