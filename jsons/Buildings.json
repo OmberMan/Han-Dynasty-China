@@ -94,6 +94,7 @@
 		"replaces": "Garden",
 		"uniqueTo": "Korea",
   "culture": 1,
+  "faith": 1
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["+1 Artist Slot","[+25]% Great Person generation [in this city]", "[+1 Science] from [Great Improvement] tiles [in this city]"],
 		"hurryCostModifier": 25,
