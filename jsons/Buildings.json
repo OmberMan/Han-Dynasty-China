@@ -36,7 +36,7 @@
 { 
                  "name": "Dermaga", 
                  "replaces": "Harbor", 
-                 "uniqueTo": "Sirivijaya", 
+                 "uniqueTo": "Srivijaya", 
                  "cost": 120, 
                  "maintenance": 1, 
                  "hurryCostModifier": 25, 
