@@ -3,7 +3,8 @@
 		"name": "Siam",
 		"leaderName": "Ramkhamhaeng",
 		"adjective": ["Siamese"],
-		"startBias": ["Avoid [Forest]"],
+  "personality": "Ramkhamhaeng", 
+		"startBias": ["Avoid [Desert]", "Avoid [Tundra]"],
 		"preferredVictoryType":"Diplomatic",
   "style": "East Asian",
 
@@ -30,7 +31,8 @@
     },
 	{
 		"name": "Champa",
-		"leaderName": "Chế Bồng Nga",
+		"leaderName": "Chê Bông Nga",
+  "personality": "Che Bong Nga",
 		"adjective": ["Cham"],
 		"startBias": ["Jungle","Coast"],
 		"preferredVictoryType": "Cultural",
@@ -44,11 +46,11 @@
 		"defeated":  "So that's how it all ends. That is not how I've imagined my last moments.",
 		"introduction":  "I am the Red King of Champa, Chế Bồng Nga! Are you here to trade?",
 		
-		"neutralHello": "Greetings, friend.",
+		"neutralHello": "Greetings, exotic leader.",
 		"neutralLetsHearIt": ["Yes.","Let's discuss."],
 		"neutralNo": ["No way.","Never!"],
 		"neutralYes": ["Very good.","Of course, yes.","I accept."],
-		"hateHello": "Go on!",
+		"hateHello": "Chê bông nga balls.",
 		"hateLetsHearIt": ["Speak!"],
 		"hateNo": ["You dare to joke in my presence!?","Don't make me laugh!"],
 		"hateYes": ["I must accept, even if i don't like you.","Fine."],
@@ -67,9 +69,11 @@
 {
 		"name": "China",
 		"leaderName": "Liu Bang",
+  "personality": "Liu Bang",
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
                 "style": "East Asian",
+  ["Avoid [Desert]"],
                  
 
         "startIntroPart1": "",
@@ -102,6 +106,7 @@
 		"leaderName": "Shaka",
 		"adjective": ["Zulu"],
 		"startBias": ["Plains"],
+  "personality": "Shaka",
 		"preferredVictoryType": "Domination",
                 "style": "African",
 
@@ -128,6 +133,7 @@
 		"leaderName": "Oda Nobunaga",
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
+  "personality": "Oda Nobunaga",
 		"preferredVictoryType": "Domination",
                 "style": "East Asian",
 
@@ -137,8 +143,8 @@
 		"attacked": "Pitiful fool! Now we shall destroy you!",
 		"defeated": "You were much wiser than I thought.",
 		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
-		"neutralHello": "Hello.",
-		"hateHello": "Oh, it's you...",
+		"neutralHello": "I assume a reason for this visit, foreigner?",
+		"hateHello": "Barbarian, look forward to the day I bestow upon you the honor of wetting my blade with your blood...",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
 		"outerColor": [215,225,225],
 		"innerColor": [185,0,0],
@@ -155,6 +161,7 @@
 		"leaderName": "Askia",
 		"adjective": ["Songhai"],
 		"startBias": ["Desert"],
+  "personality": "Asika",
 		"preferredVictoryType": "Domination",
                 "style": "African",
 
@@ -183,6 +190,7 @@
 		"leaderName": "Genghis Khan",
 		"adjective": ["Mongolian"],
 		"startBias": ["Plains"],
+  "personality": "Genghis Khan",
 		"preferredVictoryType": "Domination",
                 "style": "East Asian",
 
