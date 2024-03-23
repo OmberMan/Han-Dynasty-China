@@ -13,7 +13,7 @@
 "priorities": {
     "Order": 10,
     "Tradition": 20,
-    "Piety": 40,,
+    "Piety": 40,
     "Patronage": 30,
     "Aesthetics": 10
 }
