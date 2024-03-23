@@ -42,7 +42,7 @@
 		"startIntroPart2": "TBD",
 		
 		"declaringWar": "We tolerated you way longer than we should, and now we demand you pay with your blood.",
-		"attacked": "We will ensure you will remember the day you turned on us.",
+		"attacked": "We will ensure you will remember the day you turned on us. Ass to ass.",
 		"defeated":  "So that's how it all ends. That is not how I've imagined my last moments.",
 		"introduction":  "I am the Red King of Champa, Chế Bồng Nga! Are you here to trade?",
 		
@@ -73,7 +73,7 @@
 		"adjective": ["Chinese"],
 		"preferredVictoryType": "Scientific",
                 "style": "East Asian",
-  ["Avoid [Desert]"],
+                  "startBias": ["Avoid [Desert]"],
                  
 
         "startIntroPart1": "",
