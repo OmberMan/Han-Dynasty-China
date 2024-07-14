@@ -4,12 +4,18 @@
                 "preferredVictoryType": "Diplomatic",
                 "food": 7,
                 "production": 6,
-                "gold": 6,
+                "gold": 5,
                 "culture": 7,
                 "science": 4,
                 "faith": 7,
                 "military": 3,
                 "warMongering": 4,
+"aggressive": 4,
+      "declareWar": 4,
+      "commerce": 6,
+      "diplomacy": 10,
+      "loyal": 6,
+      "expansion": 6,
 "priorities": {
     "Order": 10,
     "Tradition": 20,
@@ -29,6 +35,12 @@
                 "faith": 5,
                 "military": 5,
                 "warMongering": 7,
+"aggressive": 5,
+      "declareWar": 7,
+      "commerce": 9,
+      "diplomacy": 4,
+      "loyal": 4,
+      "expansion": 4,
 "priorities": {
     "Exploration": 20,
     "Commerce": 10,
@@ -66,6 +78,12 @@
                 "faith": 4,
                 "military": 9,
                 "warMongering": 10,
+"aggressive": 7,
+      "declareWar": 10,
+      "commerce": 2,
+      "diplomacy": 2,
+      "loyal": 9,
+      "expansion": 4,
 "priorities": {
     "Honor": 50,
 }
@@ -81,6 +99,12 @@
                 "faith": 2,
                 "military": 7,
                 "warMongering": 8,
+"aggressive": 8,
+      "declareWar": 9,
+      "commerce": 3,
+      "diplomacy": 3,
+      "loyal": 7,
+      "expansion": 5,
           "priorities": {
     "Honor": 50,
     "Tradition": 30,
@@ -97,7 +121,13 @@
                 "science": 5,
                 "faith": 7,
                 "military": 7,
-                "warMongering": 7,
+                "warMongering": 9,
+"aggressive": 9,
+      "declareWar": 8,
+      "commerce": 9,
+      "diplomacy": 4,
+      "loyal": 3,
+      "expansion": 8,
 "priorities": {
     "Commerce": 30,
 }
@@ -113,8 +143,16 @@
                 "faith": 3,
                 "military": 9,
                 "warMongering": 10,
+"aggressive": 10,
+      "declareWar": 10,
+      "commerce": 8,
+      "diplomacy": 4,
+      "loyal": 6,
+      "expansion": 10,
 "priorities": {
-    "Honor": 10,
+    "Honor": 20,
+    "Commerce": 10
+
 }
         }
 ]
